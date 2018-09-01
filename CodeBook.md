@@ -47,7 +47,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 
 ## Description of the variables in the tidydata.txt file
 
-There are 180 observation of 68 variables in tidydata data set (I choose the narrower data, i.e. only extract the mean() and std() viriables instead of all variable with mean and std in their names, say, meanFreq()):
+There are *180 observation* of *68 variables* in tidydata data set (I choose the narrower data, i.e. only extract the mean() and std() viriables instead of all variable with mean and std in their names, say, meanFreq(), gravityMean and etc.):
 
 Among the 68 variables, 2 of them are ID varaibales(activitylables and subject) which indicate which activity a certain subject performs; 66 of them are measurements and their names follow certain schemas:
 
@@ -71,7 +71,7 @@ fBodyAccJerkMag
 fBodyGyroMag
 fBodyGyroJerkMag
 
-Plus, The set of variables that were estimated from these signals are: 
+Plus, the set of variables that were estimated from these signals are: 
 
 * mean: Mean value
 * std: Standard deviation
