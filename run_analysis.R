@@ -14,6 +14,7 @@ if(!file.exists("./data/UCI HAR Dataset")){
 }
 setwd("./data/UCI HAR Dataset")
 
+##Read files into R
 features <- read.table("./features.txt")
 trainX <- read.table("./train/X_train.txt")
 testX <- read.table("./test/X_test.txt")
