@@ -43,7 +43,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 5. Creates a second, independent tidy data set with the average of each variable for each activity and each subject;
 6. Appropriately labels the data set with descriptive variable names; 
 7. Output the tidy data set, named tidydata.txt.
-[See 'README.md' for more details. ]()
+[See 'README.md' for more details. ](https://github.com/SafeguardLi/Getting-Cleaning-Data-Final-Assignment/blob/master/README.md)
 
 ##Description of the variables in the tidydata.txt file
 
