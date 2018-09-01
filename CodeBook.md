@@ -12,13 +12,13 @@ The tidydata data set comes from the UCI HAR Dataset and contians the ID variabl
 More info about UCI HAR Dataset is available: 
 <http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones>
 
-##Study design and data processing
+## Study design and data processing
 
 The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. Using its embedded accelerometer and gyroscope, we captured 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz. 
 
 The sensor signals (accelerometer and gyroscope) were pre-processed by applying noise filters and then sampled in fixed-width sliding windows of 2.56 sec and 50% overlap (128 readings/window). The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity. The gravitational force is assumed to have only low frequency components, therefore a filter with 0.3 Hz cutoff frequency was used. From each window, a vector of features was obtained by calculating variables from the time and frequency domain. 
 
-###Collection of the raw data
+### Collection of the raw data
 
 The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
 
@@ -27,14 +27,14 @@ Subsequently, the body linear acceleration and angular velocity were derived in 
 Finally a Fast Fourier Transform (FFT) was applied to some of these signals producing fBodyAcc-XYZ, fBodyAccJerk-XYZ, fBodyGyro-XYZ, fBodyAccJerkMag, fBodyGyroMag, fBodyGyroJerkMag. (Note the 'f' to indicate frequency domain signals). 
 
 
-##Creating the tidy datafile
+## Creating the tidy datafile
 
-###Guide to create the tidy data file
+### Guide to create the tidy data file
 
 1. Download the data
 2. Read the files into R
 
-###Cleaning of the data
+### Cleaning of the data
 
 1. Combine test_X data with train_X data.
 2. Extract only the measurements on the mean and standard deviation for each measurement;
@@ -45,7 +45,7 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 7. Output the tidy data set, named tidydata.txt.
 [See 'README.md' for more details. ](https://github.com/SafeguardLi/Getting-Cleaning-Data-Final-Assignment/blob/master/README.md)
 
-##Description of the variables in the tidydata.txt file
+## Description of the variables in the tidydata.txt file
 
 There are 180 observation of 68 variables in tidydata data set:
 
